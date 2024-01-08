@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222,220,222);
+    margin-top: 200px;
+}
+.container{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.leftpart{
+    width: 40%;
+}
+h1{
+    color: royalblue;
+    font-size: 80px;
+}
+h3{
+    color: black;
+    font-size: 30px;
+}
+.rightpart{
+    width: 50;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    box-shadow: -10px -10px 15px gray;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+input{
+    width: 300px;
+    height: 25px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 15px ;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    background-color: royalblue;
+    color:white;
+}
+p{
+    color: royalblue;
+}
+hr{
+    border: 1px solid blue;
+    width: 300px;
+    margin: 20px 0px;
+}
+.creation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: chartreuse;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 300px;
+    border-radius: 10px;
+}
+span{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: 200px;
+}
